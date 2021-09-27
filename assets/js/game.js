@@ -21,7 +21,7 @@ var fight = function(enemyName) {
         playerMoney = playerMoney - 10;
         console.log("playerMoney", playerMoney);
         break;
-        // if no (false), ask question again by running fight() again
+      // if no (false), ask question again
       }
     } else if (promptFight === "FIGHT" || promptFight === "fight") {
       // remove enemy's health by subtracting the amount set in the playerAttack variable
